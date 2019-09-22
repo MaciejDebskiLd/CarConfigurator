@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class AppConfig {
-
+//dwukropek - wstawi wartość domyślną - nazwa ta jest opcjonalna; nazwa samochodu  jest zaś wymagana!!
     @Value("${engine.petrol.20:}")
     private String enginePetrol20Name;
 
@@ -60,7 +60,7 @@ public class AppConfig {
     @Bean("mazdaCx5Diesel22")
     @Scope("prototype")
     public Car mazdaCx5Diesel22(){return new CarImpl(carMazdaCx5Name, enginediesel22());}
-        
+
 
 }
 
