@@ -38,7 +38,7 @@ public class AppConfig {
     public Engine enginediesel22(){return new EngineImpl(EEngineType.DIESEL,engineDiesel22Name,184,"6AT",2191);}
 
     @Bean("mazda6Petrol20")
-    @Scope("prototype")
+    @Scope("prototype")//przy każdym użyciu tego beana będzie utworzony nowy obiekt
     public Car mazda6Petrol20(){return new CarImpl(carMazda6Name, enginepetrol20());}
 
     @Bean("mazda6Petrol25")
