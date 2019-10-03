@@ -14,7 +14,7 @@ public class CarOfferServiceImpl implements CarOfferService {
 
     private CarOfferCreator carOfferCreator;
 
-    public CarOfferCreatorImpl(CarOfferCreator carOfferCreator){
+    public CarOfferServiceImpl(CarOfferCreator carOfferCreator){
         this.carOfferCreator = carOfferCreator;
     }
 
