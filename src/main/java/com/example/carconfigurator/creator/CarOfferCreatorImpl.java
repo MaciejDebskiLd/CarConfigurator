@@ -4,7 +4,9 @@ import com.example.carconfigurator.car.Car;
 import com.example.carconfigurator.engine.EEngineType;
 import com.example.carconfigurator.engine.Engine;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CarOfferCreatorImpl implements CarOfferCreator {
 
     private static final String EMPTY_VALUE = "-";
