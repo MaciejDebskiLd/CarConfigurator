@@ -4,5 +4,5 @@ import com.example.carconfigurator.car.Car;
 
 public interface CarOfferCreator {
 
-    String CreateCarOffer (Car car);
+    String createCarOffer (Car car);
 }
